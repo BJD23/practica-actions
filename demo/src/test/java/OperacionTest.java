@@ -1,11 +1,9 @@
 package com.example;
 
-import com.example.Operacion;
 import org.junit.jupiter.api.Test;
 import static org.junit.jupiter.api.Assertions.*;
 
 public class OperacionTest {
-
     @Test
     public void testSumar() {
         Operacion op = new Operacion(5, 3);

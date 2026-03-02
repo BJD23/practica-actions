@@ -9,22 +9,11 @@ public class Operacion {
         this.num2 = num2;
     }
 
-    public double sumar() {
-        return num1 + num2;
-    }
-
-    public double restar() {
-        return num1 - num2;
-    }
-
-    public double multiplicar() {
-        return num1 * num2;
-    }
-
+    public double sumar() { return num1 + num2; }
+    public double restar() { return num1 - num2; }
+    public double multiplicar() { return num1 * num2; }
     public double dividir() {
-        if (num2 == 0) {
-            throw new IllegalArgumentException("¡Hey! No se puede dividir entre cero.");
-        }
+        if (num2 == 0) throw new IllegalArgumentException("No dividir entre cero");
         return num1 / num2;
     }
 }
