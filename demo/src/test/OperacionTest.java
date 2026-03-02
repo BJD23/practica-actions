@@ -1,6 +1,9 @@
 package com.example;
 
 import org.junit.jupiter.api.Test;
+
+import com.example.Operacion;
+
 import static org.junit.jupiter.api.Assertions.*;
 
 public class OperacionTest {
